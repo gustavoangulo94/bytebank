@@ -9,7 +9,9 @@ import { Validator } from '@angular/forms';
 export class AppComponent {
   title = 'bytebank';
   transferencias: any[] = [];
-
+  
+   
+  
   transferir($event) {
     console.log($event);
     
